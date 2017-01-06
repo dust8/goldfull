@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "gold full",
+    "version": "1.0",
+
+    "description": "掘金免登录展开全文",
+    "icons": {
+        "128": "images/gf.png"
+    },
+
+    "author": "dust8",
+
+    "browser_action": {
+        "default_title": "gold full",
+        "default_icon": "images/gf.png"
+    },
+
+    "content_scripts": [{
+        "matches": ["https://gold.xitu.io/post/*"],
+        "css": ["css/showfull.css"],
+        "js": ["js/showfull.js"]
+    }]
+}

@@ -16,7 +16,7 @@
     },
 
     "content_scripts": [{
-        "matches": ["https://gold.xitu.io/post/*"],
+        "matches": ["https://juejin.im/post/*"],
         "css": ["css/showfull.css"],
         "js": ["js/showfull.js"]
     }]
